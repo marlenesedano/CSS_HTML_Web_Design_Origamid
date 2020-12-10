@@ -60,6 +60,7 @@
     font-weight: bold;
     color: #fec63e;
     font-weight: bold;
+    padding-top: 30px;
    
 }
 
@@ -70,10 +71,12 @@
     line-height: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/* 
 .contato_dados span:nth-of-type(1){ /*vai pegar o primeiro elemento dentro da classe e vai estilizar ele*/
-    margin-bottom: 40px;
+   /* margin-bottom: 40px;
 }
+
+*/
 
 .contato_dados ul li{
     display: inline-block;
