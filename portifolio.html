@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/portifolio.css">
     <link rel="stylesheet" href="/css/responsivo.css">
+    <script>document.documentElement.classList.add("js");</script>
 
 </head>
 <!-- inicio-->
@@ -39,7 +40,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" data-slide="quote">
         <blockquote class="quote_clientes">
             <p>No mundo atual, a continua expansão de nossa atividade cumpre
                 um papel essencial na formulação da gestão inovadora da qual fazemos
@@ -47,16 +48,31 @@
             </p>
             <cite>Barbara Moss</cite>
         </blockquote>
+        <blockquote class="quote_clientes">
+            <p>Defina metas elevadas e não pare até conseguir.
+            </p>
+            <cite>Bo Jackson</cite>
+        </blockquote>
+        <blockquote class="quote_clientes">
+            <p>Hoje voce tem 100% do resto da sua vida
+            </p>
+            <cite>Tom Landry</cite>
+        </blockquote>
     </section>
 
     <section class="portifolio">
-        <div class="container">
+        <div class="container" data-slide="portifolio">
             <ul class="portifolio_lista">
                 <li class="grid-8"><img src="/img/portfolio/retro.jpg" alt="Biciclata retro"></li>
                 <li class="grid-8"><img src=" /img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
                 <li class="grid-16"><img src=" /img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
             </ul>
 
+            <ul class="portifolio_lista">
+                <li class="grid-8"><img src=" /img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+                <li class="grid-8"><img src="/img/portfolio/retro.jpg" alt="Biciclata retro"></li>
+                <li class="grid-16"><img src=" /img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
+            </ul>
         </div>
     </section>
 
@@ -112,6 +128,8 @@
         </div>
     </footer>
 
+    <script src="/js/simple-slide.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
