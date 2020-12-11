@@ -54,6 +54,12 @@
 	border-color: #fff;
 	}
 
+	
+	.header_menu ul li a.menu_ativo{
+		border-color: #fff;
+	}
+
+
 	/*Introducao*/
 
 	.introducao {
@@ -63,12 +69,17 @@
 	}
 
 	
-.introducao h1{
-    font-size: 36px;
-    color: #fff;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
+	.introducao h1{
+		font-size: 36px;
+		color: #fff;
+		font-weight: bolder;
+		text-transform: uppercase;
+	}
+
+	.introducao-interna{
+		margin-top: 0px;
+		
+	}
 
 	/*call*/
 	
@@ -79,5 +90,16 @@
 	/*qualidade home*/
 	.qualidade:after{
 		display: none;
+	}
+
+	/*sobre*/		
+	.missao_sobre p{
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0px;
+	}
+	.missao_sobre ul li{
+		font-size: 14px;
+		line-height: 25px;
 	}
 }
